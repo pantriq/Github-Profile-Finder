@@ -9,6 +9,7 @@
   <body>
     <div class="mode-toggle">
       <button id="search-mode-btn" class="mode-btn active">Search Mode</button>
+      <button id="repo-mode-btn" class="mode-btn">Repo Search</button>
       <button id="battle-mode-btn" class="mode-btn">Battle Mode</button>
     </div>
 
@@ -18,6 +19,14 @@
         <div class="history-bar" id="history-bar"></div>
       </form>
       <main id="main"></main>
+    </div>
+
+    <div id="repo-section" class="section">
+      <form class="user-form" id="repo-form">
+        <input type="text" placeholder="Search GitHub Repositories" id="repo-search" />
+        <div class="history-bar" id="repo-history-bar"></div>
+      </form>
+      <main id="repo-main"></main>
     </div>
 
     <div id="battle-section" class="section">
