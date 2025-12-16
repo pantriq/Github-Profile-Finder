@@ -4,18 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>GitHub Profiles</title>
+    <title>GitHub Profiles - Dev Battle</title>
   </head>
   <body>
-    <form class="user-form" id="form">
-      <input type="text" placeholder="Search a GitHub User" id="search" />
-    </form>
-    <main id="main"></main>
+    <div class="mode-toggle">
+      <button id="search-mode-btn" class="mode-btn active">Search Mode</button>
+      <button id="battle-mode-btn" class="mode-btn">Battle Mode</button>
+    </div>
+
+    <div id="search-section" class="section active">
+      <form class="user-form" id="form">
+        <input type="text" placeholder="Search a GitHub User" id="search" />
+        <div class="history-bar" id="history-bar"></div>
+      </form>
+      <main id="main"></main>
+    </div>
+
+    <div id="battle-section" class="section">
+      <div class="battle-container">
+        <div class="battle-inputs">
+          <input type="text" placeholder="Player 1 Username" id="player1-input" class="battle-input" />
+          <div class="vs-badge-small">VS</div>
+          <input type="text" placeholder="Player 2 Username" id="player2-input" class="battle-input" />
+        </div>
+        <div class="battle-buttons">
+          <button id="battle-btn" class="battle-start-btn">Start Battle!</button>
+          <button id="random-btn" class="random-btn">Random Opponent</button>
+        </div>
+        <div class="battle-history-bar" id="battle-history-bar"></div>
+      </div>
+
+      <div id="battle-arena" class="battle-arena">
+        <div class="battle-card-container" id="player1-container">
+          <div class="player-label">Player 1</div>
+          <div id="player1-card" class="battle-card"></div>
+          <div id="player1-stats" class="battle-stats"></div>
+        </div>
+
+        <div class="vs-container" id="vs-container">
+          <div class="vs-text">VS</div>
+        </div>
+
+        <div class="battle-card-container" id="player2-container">
+          <div class="player-label">Player 2</div>
+          <div id="player2-card" class="battle-card"></div>
+          <div id="player2-stats" class="battle-stats"></div>
+        </div>
+      </div>
+
+      <div id="winner-banner" class="winner-banner hidden">
+        <div class="winner-text" id="winner-text"></div>
+        <div class="winner-score" id="winner-score"></div>
+      </div>
+
+      <div class="battle-actions hidden" id="battle-actions">
+        <button id="download-battle-btn" class="action-btn">Download Battle Card</button>
+        <button id="share-battle-btn" class="action-btn">Copy Share Link</button>
+      </div>
+
+      <div id="confetti-container" class="confetti-container"></div>
+    </div>
+
+    <audio id="battle-sound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3" preload="auto"></audio>
+    <audio id="winner-sound" src="https://assets.mixkit.co/active_storage/sfx/1435/1435-preview.mp3" preload="auto"></audio>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
       integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
